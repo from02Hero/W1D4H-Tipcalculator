@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">W1D4HTipCalculator</string>
+    <string name="round_up_to_nearest">Round up to nearest $</string>
+    <string name="check_amount">Check Amount</string>
+    <string name="total">Total</string>
+    <string name="pay">Pay</string>
 </resources>

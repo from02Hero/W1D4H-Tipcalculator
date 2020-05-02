@@ -23,7 +23,7 @@
             android:id="@+id/inputAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Check Amount"
+            android:hint="@string/check_amount"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:switchPadding="16dp"
-        android:text="Round up to nearest $"
+        android:text="@string/round_up_to_nearest"
         app:layout_constraintBottom_toTopOf="@+id/buttonBad"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
@@ -117,7 +117,7 @@
         android:layout_height="wrap_content"
         android:gravity="end"
         android:padding="16dp"
-        android:text="Total"
+        android:text="@string/total"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,7 +141,7 @@
         android:layout_height="match_parent"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="Pay"
+        android:text="@string/pay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textTotal"/>
 
